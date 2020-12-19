@@ -9,8 +9,8 @@ driver.get(url)
 def login_zhidao(driver):
     driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__footerULoginBtn"]').click()
     time.sleep(2)
-    driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__userName"]').send_keys('17568937997')
-    driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__password"]').send_keys('1996519..')
+    driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__userName"]').send_keys('17568937***')
+    driver.find_element_by_xpath('//*[@id="TANGRAM__PSP_11__password"]').send_keys('*******')
 
     try:
         verifyCode = driver.find_element_by_class_name('verifyCode')
